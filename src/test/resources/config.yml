@@ -1,0 +1,18 @@
+TestConfiguration:
+  timeout: "3000"
+  fastSetValue: "true"
+Environment:
+  dev: "http://blazedemo.com"
+  qa: "http://blazedemo.com"
+  prod: "http://blazedemo.com"
+Browser:
+  chrome:
+    browser: "Chrome"
+    height: 1368
+    width: 960
+  firefox:
+    browser: "Firefox"
+  headless:
+    browser: "Chrome"
+    headless: "true"
+
